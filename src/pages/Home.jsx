@@ -33,12 +33,12 @@ const Home = () => {
                         <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[600] md:leading-[70px]">
                         <span className="bg-yellowColor rounded-full p-1 text-white">Despega</span> tu negocio. Haz click para llevar tu emprendimiento al siguiente <span className="bg-purpleColor rounded-full p-1 text-white">nivel</span>!
                         </h1>
-                        <p className="text__para">
+                        <p className="text__para mb-8">
                         Potencia tu emprendimiento con nuestro equipo de expertos en asesoría empresarial. Encontrarás soluciones personalizadas para impulsar tu negocio hacia el éxito. Aprovecha nuestra experiencia y lleva tus ideas a nuevas alturas."
                         </p>
-                        <button className="btn"><a href="/contact"
+                        <Link className="btn" to="/contact"
                         >
-                            Solicita un asesor</a></button>
+                            Solicita un asesor</Link>
                     </div>
 
                     <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
